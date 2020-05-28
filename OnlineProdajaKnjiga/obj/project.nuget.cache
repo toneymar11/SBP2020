@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "n+1/nbl9r1e2V/ykbJkB+VJzAPWtigo71B69zztwHRF8gnJd0kNcKrsEOLqGOBP/9hVw9vIkWPA9XIAuOYtcXg==",
+  "dgSpecHash": "eAFJnwFDBius8rEjy0FBxvWA/wUzm4MLgb/roo/DbmO4kG7KxBDm0voVLQOSNBqwzYigi0GKp1DcHF+rElrq6Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\OnlineProdajaKnjiga\\OnlineProdajaKnjiga.csproj",
+  "projectFilePath": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\SBP2020\\OnlineProdajaKnjiga\\OnlineProdajaKnjiga.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\AOX\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\AOX\\.nuget\\packages\\entityframework6.npgsql\\6.4.1\\entityframework6.npgsql.6.4.1.nupkg.sha512",

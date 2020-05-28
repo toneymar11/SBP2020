@@ -9171,11 +9171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\OnlineProdajaKnjiga\\OnlineProdajaKnjiga.csproj",
+      "projectUniqueName": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\SBP2020\\OnlineProdajaKnjiga\\OnlineProdajaKnjiga.csproj",
       "projectName": "OnlineProdajaKnjiga",
-      "projectPath": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\OnlineProdajaKnjiga\\OnlineProdajaKnjiga.csproj",
+      "projectPath": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\SBP2020\\OnlineProdajaKnjiga\\OnlineProdajaKnjiga.csproj",
       "packagesPath": "C:\\Users\\AOX\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\OnlineProdajaKnjiga\\obj\\",
+      "outputPath": "C:\\Users\\AOX\\Desktop\\OnlineProdaja\\SBP2020\\OnlineProdajaKnjiga\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
