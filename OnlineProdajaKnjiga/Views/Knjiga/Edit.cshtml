@@ -1,0 +1,61 @@
+﻿@model OnlineProdajaKnjiga.Models.Knjiga
+
+@{
+    ViewData["Title"] = "UPDATE";
+    Layout = "_Layout";
+}
+
+<h1>Ažuriranje knjige</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="IdKnjiga" />
+            <div class="form-group">
+                <label asp-for="Naziv" class="control-label">Naziv Knjige</label>
+                <input asp-for="Naziv" class="form-control" placeholder="Unesite naziv knjige" />
+                <span asp-validation-for="Naziv" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="DatumObjave" class="control-label">Datum Objave</label>
+                <input asp-for="DatumObjave" class="form-control" />
+                <span asp-validation-for="DatumObjave" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Cijena" class="control-label">Cijena</label>
+                <input asp-for="Cijena" class="form-control" placeholder="Unesite cijenu knjige" />
+                <span asp-validation-for="Cijena" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="BrojStranica" class="control-label">Broj Stranica</label>
+                <input asp-for="BrojStranica" class="form-control" placeholder="Unesite broj stranica knjige" />
+                <span asp-validation-for="BrojStranica" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FkAutor" class="control-label">Izaberi autora</label>
+                <select asp-for="FkAutor" class="form-control" asp-items="ViewBag.FkAutor"></select>
+                <span asp-validation-for="FkAutor" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FkIzdavackaKuca" class="control-label">Izaberi izdavačku kuću</label>
+                <select asp-for="FkIzdavackaKuca" class="form-control" asp-items="ViewBag.FkIzdavackaKuca"></select>
+                <span asp-validation-for="FkIzdavackaKuca" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+                <a class="btn btn-danger" asp-action="Index">Natrag na pregled</a>
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
